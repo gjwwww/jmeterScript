@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testResults version="1.2">
-<httpSample t="900" it="0" lt="639" ct="378" ts="1555665479901" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="106199" sby="257" ng="1" na="1">
-  <httpSample t="639" it="0" lt="639" ct="378" ts="1555665479901" s="true" lb="http://www.badiu.com/" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="255" sby="117" ng="1" na="1"/>
-  <httpSample t="259" it="0" lt="114" ct="77" ts="1555665480542" s="true" lb="http://www.lvse.cn/site/baidu-com1-1226.html" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="105944" sby="140" ng="1" na="1"/>
-</httpSample>
-
-</testResults>

@@ -19,13 +19,13 @@
         <antcall target="report"/>
     </target>
     <target name="clean">
-        <mkdir dir="${env.WORKSPACE}/results/${env.BUILD_ID}"/>
+        <mkdir dir="./results/${BUILD_ID}"/>
     </target>
     <target name="test">
         <taskdef classname="org.programmerplanet.ant.taskdefs.jmeter.JMeterTask" name="jmeter"/>
         <jmeter jmeterhome="${jmeter.home}" resultlog="${jmeter.result.jtlName}">
             <!-- 声明要运行的脚本"*.jmx"指包含此目录下的所有jmeter脚本-->
-            <testplans dir="/Users/gjw/Desktop/jmeter脚本" includes="*.jmx"/>
+            <testplans dir="./jmeter脚本" includes="*.jmx"/>
             <property name="jmeter.save.saveservice.output_format" value="xml"/>
         </jmeter>
     </target>
