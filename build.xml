@@ -4,9 +4,9 @@
     </tstamp>
     <property name="jmeter.home" value="/Users/gjw/apache-jmeter-4.0"/>
 
-    <property name="jmeter.result.dir" value="/Users/gjw/Desktop/jmeter脚本"/>
+    <property name="jmeter.result.dir" value="./"/>
 
-    <property name="jmeter.result.html.dir" value="/Users/gjw/Desktop/jmeter脚本"/>
+    <property name="jmeter.result.html.dir" value="./"/>
     <!--生成的html报告的前缀-->
     <property name="ReportName" value="TestReport"/>
 
