@@ -19,7 +19,7 @@
         <antcall target="report"/>
     </target>
     <target name="clean">
-        <mkdir dir="./results/${BUILD_ID}"/>
+        <mkdir dir="./results/${BUILD_NUMBER}"/>
     </target>
     <target name="test">
         <taskdef classname="org.programmerplanet.ant.taskdefs.jmeter.JMeterTask" name="jmeter"/>
