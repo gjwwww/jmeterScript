@@ -3,7 +3,7 @@
         <format pattern="yyyyMMddhhmm" property="time"/>
     </tstamp>
     <property environment="env"/>
-    <property name="jmeter.home" value="/Users/gjw/apache-jmeter-4.0"/>
+    <property name="jmeter.home" value="D:\jmeter\apache-jmeter.5.1.1"/>
 
     <property name="jmeter.result.dir" value="${env.WORKSPACE}/results/${env.BUILD_ID}"/>
 
